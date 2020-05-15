@@ -1,9 +1,5 @@
 import React from "react";
-
-import {
-  atom,
-  useRecoilState,
-} from "recoil";
+import { atom, useRecoilState } from "recoil";
 
 import Preview from "./Preview";
 
