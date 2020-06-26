@@ -6,7 +6,6 @@ import { textState } from "./textState";
 function Preview() {
   const text = useRecoilValue(textState);
 
-
   return (
     <div>
       Echo: {text}
